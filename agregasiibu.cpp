@@ -28,4 +28,9 @@ void ibu::cetakAnak(){
     /*for (auto& a : daftar_anak) {
      cout << a->nama << "\n";
     }*/
-  
+   for (int i = 0; i< daftar_anak.size(); i++) {
+    cout << daftar_Anak[i]->nama << endl;
+   }
+   cout << endl;
+}
+#endif
